@@ -23,7 +23,7 @@ void setup() {
 
 void draw() {
   //Change the back ground color here
-  background(255);
+  background(255, 0, 0);
 
   // Compute direction towards target
   dx = constrain(xTarget - x, -2, 2);
