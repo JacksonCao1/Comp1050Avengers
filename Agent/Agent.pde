@@ -39,7 +39,7 @@ void draw() {
   ellipse(x, y, 50, 50);
   
   //Change the mouth color here
-  stroke(0, 0, 250);
+  stroke(67, 250, 250);
   strokeWeight(3);
   arc(x,y,25, 25, 0, PI);
   //Add the eyes after this line
