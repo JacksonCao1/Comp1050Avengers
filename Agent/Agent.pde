@@ -43,12 +43,13 @@ void draw() {
   strokeWeight(3);
   arc(x,y,25, 25, 0, PI);
   //Add the eyes after this line
+
 }
 
 void mousePressed() {
   if (dist(x,y,mouseX,mouseY)<50) {  // mouseY is over the agent
     //Change the agent color here
-    agentColor = color(200, 0, 0);
+    agentColor = color(200, 100, 50);
   } else {
     xTarget = mouseX; // set the target
     yTarget = mouseY;
@@ -57,5 +58,6 @@ void mousePressed() {
 
 void mouseReleased() {
   //Change the agent color here
-  agentColor=color(200, 200, 50);
+  agentColor=color(200, 100, 50);
+
 }
