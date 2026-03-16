@@ -43,6 +43,8 @@ void draw() {
   strokeWeight(3);
   arc(x,y,25, 25, 0, PI);
   //Add the eyes after this line
+  rect(x+5, y+5, 2, 2);
+  rect(x+15, y+5, 2, 2);
 
 }
 
